@@ -8,7 +8,8 @@ function parOimpar(numero){
     }
 
 }
-//parOimpar(3)
+parOimpar(3)
+
 //2
 function ejercicio2(a,b){ 
     if ( a > b) {
@@ -19,7 +20,8 @@ function ejercicio2(a,b){
         console.log(b)
     }
 }
-//ejercicio2(1,50)
+ejercicio2(1,50)
+
 //3
 function ejercicio3(num){
     if(num % 5 === 0 ){
@@ -28,23 +30,25 @@ function ejercicio3(num){
         console.log(num + " no es multiplo de 5.")
     }
 }
-//ejercicio3(10)
+ejercicio3(10)
+
 //4
 function ejercicio4(numero){
     for(let i= 0; i <= numero ; + i++){
         console.log(i);
     }
 }
-//ejercicio4(10)
+ejercicio4(10)
+
 //5
 function ejercicio5(palabra,num){
     for( let i=1; i <= num; i++){
         console.log(palabra)
     }
 }
-//ejercicio5("perro",5)
-//6
+ejercicio5("perro",5)
 
+//6
 let arrayPrueba=[1,2,3,4,5,6]
 function ejercicio6(array){
     for (let i = 0; i < array.length; i++) {
@@ -52,9 +56,9 @@ function ejercicio6(array){
         
     }
 }
+ejercicio6(arrayPrueba)
 
-//ejercicio6(arrayPrueba)
-
+//7
 let arrayNumero=[1,2,3,4,5,6,7,8,9,10]
 function ejercicio7(array){
     for(let i=0; i < array.length; i++){
@@ -63,7 +67,9 @@ function ejercicio7(array){
         }
     }
 }
-//ejercicio7(arrayNumero)
+ejercicio7(arrayNumero)
+
+//8
 let arrayUltimo=[1,2,3,4,5,6,7,8]
 
 function ejercicio8(array,numero){
